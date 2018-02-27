@@ -1,0 +1,54 @@
+<!---
+layout: default
+--->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Flexit</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+  
+<body>
+  <header class="header">
+      <div class="nav-links">
+        <div class="payment"><a href="/">Payments</a></div>
+        <div class="dropdown">
+         
+          <div class= "container" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div></div>
+            
+            <div id="myDropdown" class ="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+ </div></a>
+        </div>
+        <div class="header-logo">
+        <a href="/">
+          <img src="/images/cmoon-swatch-512.png" alt="Clean Endings">
+        </a>
+        </div>
+      </div>
+  </header>
+  <main class="main">  
+  </main>
+    <footer class="footer">
+      <a class="footer-logo" href="/">
+        <img src="/images/cmoon-light-512.png" alt="Clean Endings logo"/>
+      </a>
+      <h3>h3 <span>span</span></h3>
+    </footer>
+  <script>
+function myFunction(x) {
+    x.classList.toggle("change");
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+</script>
+
+  </body>
+</html>
