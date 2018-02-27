@@ -124,6 +124,7 @@ body {
   grid-area: main;
   background: linear-gradient(-115deg, #5bc, #fff);
   height: 300vh;
+  padding-top: 70px; 
 }
 .footer {
   grid-area: footer;
